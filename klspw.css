@@ -1,0 +1,47 @@
+body {
+  font-family: arial;
+  font-size: 14;
+
+  width: 100%;
+}
+.tab {
+  margin: auto;
+  width: 900px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: black;
+}
+.judul {
+  background-color: #f0e5cc;
+  height: 100%;
+  padding-top: 20px;
+}
+.regis {
+  background-color: #34aeeb;
+  color: black;
+  width: 30%;
+}
+.titik {
+  display: inline;
+}
+.bio {
+  width: 50%;
+}
+.footer {
+  background-color: #f0e5cc;
+  padding: 10px;
+  height: 75px;
+}
+.ini {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+img {
+  float: right;
+  padding-right: 20px;
+}
+.link {
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color: #ffffff;
+}

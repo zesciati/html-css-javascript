@@ -1,0 +1,12 @@
+.judul{
+    background-color: #f0e5cc;
+    height: 100%;
+    padding-top: 30px;
+}
+.tbl{
+    margin: auto;
+  width: 900px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: black;
+}
