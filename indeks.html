@@ -1,27 +1,84 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylus.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylus.css">
+  <title>Document</title>
 </head>
-  <body>
-    <table class="tbl" align="center" cellspacing="0" border="1">
+<body>
+  <table class="tab" cellspacing="0" border="1">
     <form action="">
-        <tr>
-            <td colspan="2" align="center" class="judul"><h1><b>KELAS PABW</b></h1></td>
+    <tr>
+      <td align="center" class="judul" colspan="2">
+        <h1> <b> KELAS PABW </b></h1>
+      </td>
+    </tr>
+    <tr>
+      <td class="linkin" valign="top">
+        <a href="#1" style="text-decoration: none;">Home</a><br>
+        <a href="#2" style="text-decoration: none;" >Daftar Kelas</a><br>
+        <a href="#3" style="text-decoration: none;">Daftar Mahasiswa</a><br>
+        <a href="#4" style="text-decoration: none;">Ubah Akun</a>
+      </td>
+      <td class="konten">
+        <b>Ini merupakan website resmi dari mata kuliah <br> Pengembangan Aplikasi Berbasis Web</b>
+        <p>Syarat untuk dapat login ke sistem <br>
+        adalah registrasi dengan melampirkan:</p>
+        <ul>
+          <li>Scan KTM</li>
+          <li>Scan KTP</li>
+          <li>Foto Diri 4R</li>
+        </ul>
+        <table class="fora">
+          <tr>
+            <td colspan="2" class="diri" align="center"> <b>Registrasi Data Diri</b></td>
+            
+          </tr>
+          <tr>
+            <td class="bold">username</td>
+            <td>: <input type="text" name="" size="" ></td>
+          </tr>
+          <tr>
+            <td class="bold">Password</td>
+            <td>: <input type="password" id="" name="" required minlength=""  maxlength=""></td>
+          </tr>
+          <tr>
+            <td class="bold">Konfirmasi<br>Password</td>
+            <td>:   <input type="password" id="" name="" required minlength=""  maxlength=""></td>
+          </tr>
+          <tr>
+            <td class="bold">Jenis Kelamin :</td>
+            <td>
+              <input type="radio" name="gender"/>Laki-laki 
+              <br />
+              <input type="radio" name="gender"/>Perempuan
+            </td>
+          </tr>
+          
+          <td class="bold">Jurusan</td>
+          <td>
+            <pre>:<select name="" id=""><option value="">Teknik kimia</option><option value="">Teknik Industri</option><option value="">Informatika</option><option value="">Teknik Elektro</option><option value="">Teknik Mesin</option></select></pre>
+          </td>
         </tr>
         <tr>
-            <td>home</td>
-            <td>Daftar Kelas</td>
-            <td>Daftar Mahasiswa</td>
-            <td>Ubah Akun</td>
+          <td class="bold">Fakultas</td>
+          <td>:<input type="text" placeholder="FTI" disabled></td>
         </tr>
-    </form>
-
-    </table>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  </body>
-</html>
+        <tr>
+          <td class="bold">Deskripsi diri:</td>
+          <td>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+          </td>
+        </tr>
+        <tr><td></td><td><input type="submit" value="registrasi"></td></tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center" style="background-color: #f0e5cc;"><p>Copyright 2020 pabw</p></td>
+    </tr>
+  </form>
+  </table>
+</body>
+</html> 

@@ -1,12 +1,40 @@
 .judul{
     background-color: #f0e5cc;
     height: 100%;
-    padding-top: 30px;
+    padding-top: 5px;
 }
-.tbl{
-    margin: auto;
+.tab{
+  margin: auto;
   width: 900px;
   border-style: solid;
-  border-width: 0px;
+  border-width: 2px;
   border-color: black;
+}
+body{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.linkin{
+  line-height: 25px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.konten{
+  padding-left: 30px;
+  padding-top: 20px;
+  background-color: #C6F7DF;
+}
+.diri{
+  background-color: blue;
+
+}
+.fora{
+  width: 50%px;
+  
+}
+.re{
+  display: inline;
+}
+.bold{
+  font-weight: bold;
 }
